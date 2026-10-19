@@ -1,1 +1,1 @@
-naive_bayes
+random_forest

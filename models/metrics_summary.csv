@@ -1,10 +1,10 @@
 model,split,n,accuracy,precision_fake,recall_fake,f1_fake,f1_macro,roc_auc,brier_score,false_positive_rate
-Naive Bayes,train,24,1.0,1.0,1.0,1.0,1.0,1.0,0.0002,0.0
-Naive Bayes,val,3,1.0,1.0,1.0,1.0,1.0,1.0,0.0366,0.0
-Naive Bayes,test,3,1.0,1.0,1.0,1.0,1.0,1.0,0.0511,0.0
-Logistic Regression,train,24,1.0,1.0,1.0,1.0,1.0,1.0,0.2339,0.0
-Logistic Regression,val,3,1.0,1.0,1.0,1.0,1.0,1.0,0.2423,0.0
-Logistic Regression,test,3,1.0,1.0,1.0,1.0,1.0,1.0,0.2431,0.0
-Random Forest,train,24,1.0,1.0,1.0,1.0,1.0,1.0,0.0286,0.0
-Random Forest,val,3,1.0,1.0,1.0,1.0,1.0,1.0,0.1349,0.0
-Random Forest,test,3,1.0,1.0,1.0,1.0,1.0,1.0,0.1105,0.0
+Naive Bayes,train,343,0.9038,0.9964,0.8961,0.9436,0.8084,0.9919,0.0685,0.0286
+Naive Bayes,val,43,0.8605,0.9444,0.8947,0.9189,0.7095,0.8737,0.1061,0.4
+Naive Bayes,test,43,0.8372,0.9706,0.8462,0.9041,0.6828,0.8974,0.1073,0.25
+Logistic Regression,train,343,0.895,0.9964,0.8864,0.9381,0.796,0.9701,0.1715,0.0286
+Logistic Regression,val,43,0.814,0.9167,0.8684,0.8919,0.6126,0.8684,0.1792,0.6
+Logistic Regression,test,43,0.907,0.973,0.9231,0.9474,0.7737,0.8782,0.172,0.25
+Random Forest,train,343,1.0,1.0,1.0,1.0,1.0,1.0,0.007,0.0
+Random Forest,val,43,0.907,0.925,0.9737,0.9487,0.7244,0.8421,0.0791,0.6
+Random Forest,test,43,0.9302,0.95,0.9744,0.962,0.7667,0.9103,0.059,0.5

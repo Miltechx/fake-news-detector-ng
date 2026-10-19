@@ -1,48 +1,59 @@
 {
-  "run_at": "2026-10-09T20:56:00+00:00",
+  "run_at": "2026-10-19T11:02:04+00:00",
   "input_files": [
-    "sample_claims.csv"
+    "africacheck_claims.csv",
+    "api_claims.csv",
+    "dubawa_claims.csv",
+    "needs_review_africacheck.csv",
+    "needs_review_dubawa.csv"
   ],
-  "is_sample_only": true,
-  "rows_loaded": 32,
-  "dropped_unverifiable_or_unmapped": 2,
+  "is_sample_only": false,
+  "rows_loaded": 463,
+  "dropped_unverifiable_or_unmapped": 30,
   "top_dropped_verdicts": {
-    "unverifiable": 2
+    "unproven": 18,
+    "understated/exaggerated": 11,
+    "partly true": 1
   },
-  "language_id_agreement_with_given_tags": 0.9667,
-  "language_id_agreement_n": 30,
-  "exact_duplicates_removed": 0,
+  "exact_duplicates_removed": 4,
   "near_duplicates_removed": 0,
   "conflicting_verdicts_removed": 0,
   "conflicting_claims_examples": [],
   "empty_after_cleaning_removed": 0,
-  "final_rows": 30,
+  "final_rows": 429,
   "label_counts": {
-    "Fake": 16,
-    "Real": 14
+    "Fake": 385,
+    "Real": 44
   },
   "language_counts": {
-    "en": 16,
-    "pcm": 14
+    "en": 428,
+    "pcm": 1
   },
   "category_counts": {
-    "other": 17,
-    "politics": 6,
-    "health": 5,
-    "security": 2
+    "other": 167,
+    "politics": 113,
+    "security": 108,
+    "health": 32,
+    "entertainment": 9
   },
   "source_counts": {
-    "Dubawa": 23,
-    "Africa Check": 7
+    "Dubawa": 316,
+    "Africa Check": 113
   },
   "region_counts": {
-    "National/Unspecified": 27,
-    "South-West": 3
+    "National/Unspecified": 312,
+    "North-West": 49,
+    "South-West": 27,
+    "North-Central": 22,
+    "Multiple": 7,
+    "South-East": 5,
+    "South-South": 4,
+    "North-East": 3
   },
-  "split_stratified_on": "label",
+  "split_stratified_on": "label + source",
   "split_sizes": {
-    "train": 24,
-    "val": 3,
-    "test": 3
+    "train": 343,
+    "val": 43,
+    "test": 43
   }
 }

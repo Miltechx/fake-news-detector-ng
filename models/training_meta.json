@@ -1,24 +1,28 @@
 {
-  "trained_at": "2026-10-09T20:59:41+00:00",
-  "n_train": 24,
-  "n_val": 3,
-  "n_test": 3,
+  "trained_at": "2026-10-19T11:05:46+00:00",
+  "n_train": 343,
+  "n_val": 43,
+  "n_test": 43,
   "cv_folds": 5,
   "smote": {
     "applied": true,
     "k_neighbors": 5,
     "train_counts_before": {
-      "Fake": 13,
-      "Real": 11
+      "Fake": 308,
+      "Real": 35
     },
     "train_counts_after": {
-      "Real": 13,
-      "Fake": 13
+      "Fake": 308,
+      "Real": 308
     }
   },
-  "is_sample_only": true,
+  "is_sample_only": false,
   "input_files": [
-    "sample_claims.csv"
+    "africacheck_claims.csv",
+    "api_claims.csv",
+    "dubawa_claims.csv",
+    "needs_review_africacheck.csv",
+    "needs_review_dubawa.csv"
   ],
   "python": "3.13.16",
   "scikit_learn": "1.6.1",
