@@ -1,0 +1,4 @@
+claim_text,verdict,source_file,claim_id,source,language_tag,category,date,url,label,language_tag_given,region,party_ref,religion_ref,ethnic_ref,clean_text,split
+Boko Haram has been completely defeated,False,sample_claims.csv,,Dubawa,en,security,,,Fake,en,National/Unspecified,None,None,None,boko haram complet defeat,test
+Hot water fit cure malaria,False,sample_claims.csv,,Dubawa,pcm,health,,,Fake,pcm,National/Unspecified,None,None,None,hot water cure malaria,test
+Fuel subsidy don finish for Nigeria,True,sample_claims.csv,,Dubawa,pcm,other,,,Real,pcm,National/Unspecified,None,None,None,fuel subsidy finish nigeria,test

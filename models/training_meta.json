@@ -1,0 +1,26 @@
+{
+  "trained_at": "2026-10-09T20:59:41+00:00",
+  "n_train": 24,
+  "n_val": 3,
+  "n_test": 3,
+  "cv_folds": 5,
+  "smote": {
+    "applied": true,
+    "k_neighbors": 5,
+    "train_counts_before": {
+      "Fake": 13,
+      "Real": 11
+    },
+    "train_counts_after": {
+      "Real": 13,
+      "Fake": 13
+    }
+  },
+  "is_sample_only": true,
+  "input_files": [
+    "sample_claims.csv"
+  ],
+  "python": "3.13.16",
+  "scikit_learn": "1.6.1",
+  "decision_threshold_p_real": 0.5
+}

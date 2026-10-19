@@ -1,0 +1,25 @@
+claim_text,verdict,source_file,claim_id,source,language_tag,category,date,url,label,language_tag_given,region,party_ref,religion_ref,ethnic_ref,clean_text,split
+Naija get one of the biggest economy for Africa,True,sample_claims.csv,,Dubawa,pcm,other,,,Real,pcm,National/Unspecified,None,None,None,naija get one biggest economy africa,train
+"Wahala dey for Lagos, flood don carry everybody",False,sample_claims.csv,,Dubawa,pcm,other,,,Fake,pcm,South-West,None,None,None,wahala lagos flood carry everybody,train
+Naija gain independence for 1960,True,sample_claims.csv,,Dubawa,pcm,other,,,Real,pcm,National/Unspecified,None,None,None,naija gain independence,train
+INEC announced results before voting started,False,sample_claims.csv,,Africa Check,en,politics,,,Fake,en,National/Unspecified,None,None,None,inec announc result vote start,train
+Nigeria gained independence in 1960,True,sample_claims.csv,,Africa Check,en,other,,,Real,en,National/Unspecified,None,None,None,nigeria gain independ,train
+Drinking hot water cures malaria,False,sample_claims.csv,,Dubawa,en,health,,,Fake,en,National/Unspecified,None,None,None,drink hot water cure malaria,train
+Boko Haram don finish completely for Nigeria,False,sample_claims.csv,,Dubawa,pcm,security,,,Fake,pcm,National/Unspecified,None,None,None,boko haram finish completely nigeria,train
+Nigeria has one of Africa's largest economies,True,sample_claims.csv,,Africa Check,en,other,,,Real,en,National/Unspecified,None,None,None,nigeria one africa largest economi,train
+Dem say naira don change to new currency,False,sample_claims.csv,,Dubawa,pcm,other,,,Fake,pcm,National/Unspecified,None,None,None,say naira change new currency,train
+COVID vaccine get microchip inside,False,sample_claims.csv,,Dubawa,en,health,,,Fake,pcm,National/Unspecified,None,None,None,covid vaccin get microchip insid,train
+5G network causes COVID-19,False,sample_claims.csv,,Dubawa,en,health,,,Fake,en,National/Unspecified,None,None,None,5g network caus covid,train
+The Nigerian government has removed fuel subsidy in 2023,True,sample_claims.csv,,Dubawa,en,other,,,Real,en,National/Unspecified,None,None,None,nigerian govern remov fuel subsidi,train
+Naira has been replaced with a new currency,False,sample_claims.csv,,Africa Check,en,other,,,Fake,en,National/Unspecified,None,None,None,naira replac new currenc,train
+BVAS machines were used in the 2023 elections,True,sample_claims.csv,,Dubawa,en,politics,,,Real,en,National/Unspecified,None,None,None,bvas machin use elect,train
+Dem tok say INEC announce result before election,False,sample_claims.csv,,Dubawa,pcm,politics,,,Fake,pcm,National/Unspecified,None,None,None,tok say inec announce result election,train
+Naija population pass 200 million,True,sample_claims.csv,,Dubawa,pcm,other,,,Real,pcm,National/Unspecified,None,None,None,naija population pass million,train
+New law ban all okada for whole country,False,sample_claims.csv,,Dubawa,pcm,other,,,Fake,pcm,National/Unspecified,None,None,None,new law ban okada whole country,train
+A new law bans all motorcycles nationwide,False,sample_claims.csv,,Dubawa,en,other,,,Fake,en,National/Unspecified,None,None,None,new law ban motorcycl nationwid,train
+The CBN has recalled all old naira notes permanently,False,sample_claims.csv,,Dubawa,en,other,,,Fake,en,National/Unspecified,None,None,None,cbn recal old naira note perman,train
+Tinubu don become president for May 29,True,sample_claims.csv,,Dubawa,pcm,politics,,,Real,pcm,National/Unspecified,None,None,None,tinubu become president may,train
+BVAS machine dem use for 2023 election,True,sample_claims.csv,,Dubawa,pcm,politics,,,Real,pcm,National/Unspecified,None,None,None,bvas machine use election,train
+Tinubu was sworn in as president on May 29 2023,True,sample_claims.csv,,Dubawa,en,politics,,,Real,en,National/Unspecified,None,None,None,tinubu sworn presid may,train
+Lagos na commercial capital of Naija,True,sample_claims.csv,,Dubawa,pcm,other,,,Real,pcm,South-West,None,None,None,lagos commercial capital naija,train
+CBN don recall all old naira note,False,sample_claims.csv,,Dubawa,pcm,other,,,Fake,pcm,National/Unspecified,None,None,None,cbn recall old naira note,train

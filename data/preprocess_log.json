@@ -1,0 +1,48 @@
+{
+  "run_at": "2026-10-09T20:56:00+00:00",
+  "input_files": [
+    "sample_claims.csv"
+  ],
+  "is_sample_only": true,
+  "rows_loaded": 32,
+  "dropped_unverifiable_or_unmapped": 2,
+  "top_dropped_verdicts": {
+    "unverifiable": 2
+  },
+  "language_id_agreement_with_given_tags": 0.9667,
+  "language_id_agreement_n": 30,
+  "exact_duplicates_removed": 0,
+  "near_duplicates_removed": 0,
+  "conflicting_verdicts_removed": 0,
+  "conflicting_claims_examples": [],
+  "empty_after_cleaning_removed": 0,
+  "final_rows": 30,
+  "label_counts": {
+    "Fake": 16,
+    "Real": 14
+  },
+  "language_counts": {
+    "en": 16,
+    "pcm": 14
+  },
+  "category_counts": {
+    "other": 17,
+    "politics": 6,
+    "health": 5,
+    "security": 2
+  },
+  "source_counts": {
+    "Dubawa": 23,
+    "Africa Check": 7
+  },
+  "region_counts": {
+    "National/Unspecified": 27,
+    "South-West": 3
+  },
+  "split_stratified_on": "label",
+  "split_sizes": {
+    "train": 24,
+    "val": 3,
+    "test": 3
+  }
+}

@@ -1,0 +1,4 @@
+claim_text,verdict,source_file,claim_id,source,language_tag,category,date,url,label,language_tag_given,region,party_ref,religion_ref,ethnic_ref,clean_text,split
+Lagos is the commercial capital of Nigeria,True,sample_claims.csv,,Africa Check,en,other,,,Real,en,South-West,None,None,None,lago commerci capit nigeria,val
+Nigeria's population is over 200 million,True,sample_claims.csv,,Africa Check,en,other,,,Real,en,National/Unspecified,None,None,None,nigeria popul million,val
+COVID-19 vaccines contain microchips,False,sample_claims.csv,,Africa Check,en,health,,,Fake,en,National/Unspecified,None,None,None,covid vaccin contain microchip,val

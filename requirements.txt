@@ -1,0 +1,16 @@
+# Exact scikit-learn / imbalanced-learn versions so models trained in Colab
+# load identically on Streamlit Community Cloud. Do not change one without the other.
+scikit-learn==1.6.1
+imbalanced-learn==0.13.0
+joblib>=1.3,<2
+numpy>=1.26,<2.3
+pandas>=2.1,<2.4
+scipy>=1.11,<1.16
+nltk>=3.8,<4
+lime==0.2.0.1
+streamlit>=1.40,<2
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+matplotlib>=3.7,<4
+seaborn>=0.13,<0.14
+pytest>=7
